@@ -8,7 +8,7 @@
             max-width: 400px;
             /* Adjust the maximum width as needed */
             margin: auto;
-            background-color: #e5f4e2;
+            background-color: #2ecc71;
             /* Green background color */
             padding: 20px;
             border-radius: 15px;
@@ -16,7 +16,27 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             /* Add a subtle box shadow */
         }
-
+        h3{
+            max-width: 400px;
+            /* Adjust the maximum width as needed */
+            margin: auto;
+            background-color: #2ecc71;;
+            /* Green background color */
+            padding: 20px;
+            border-radius: 15px;
+            /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Add a subtle box shadow */
+            color: white;
+            font-size: x-large;
+            font-style: italic;
+        }
+        text{
+            font-style: italic;
+            color: white;
+            font-size: x-large;
+            text-align: center;
+        }
         label {
             display: block;
             margin-bottom: 8px;
@@ -52,7 +72,14 @@
             background-color: #45a049;
             /* Darker green on hover */
         }
-
+        h2{
+            text-align: center;
+            color: white;
+            font-style: italic;
+        }
+        h1{
+            font-style: italic;
+        }
         .container {
             display: flex;
             /* Use flex display to align image and form horizontally */
@@ -87,33 +114,21 @@
     </header>
 
     <h1> Zelly Kasoha Lijondo </h1>
+    <h2> 1960 - 2023 </h2>
+    <h2> "Let the memory of Zelly be with us forever. </h2>
     <fieldset>
         <legend>Woman of Power</legend>
         <div class="container">
+
             <img src="./static/images/mumIndex.JPG" alt="Mother" width="500" height="600">
-            
+            <text> "We are assured of your love even though we're apart, because so much we've shared is written in our hearts."</text>
             <form action="https://docs.google.com/forms/d/e/1FAIpQLSe7FE_GGKFwx8bUNSE_8FOqMKtEErbs-72JtQYTveOwiWYrBQ/formResponse" method="post" target="_blank">
-                <label for="name">Name:</label>
-                <input type="text" name="name" required>
-
-                <label for="phone">Phone:</label>
-                <input type="tel" name="phone" required>
-
-                <label for="relation">Relation to Deceased:</label>
-                <input type="text" name="relation" required>
-
-                <label for="image">Upload Image:</label>
-                <input type="file" name="image" required>
-
-                <label for="tribute">Tribute:</label>
-                <textarea name="tribute" required></textarea>
-
-                <label for="condolence">Condolence:</label>
-                <textarea name="condolence" required></textarea>
-
-                <input type="submit" value="Submit">
+                <h3> Pay Tribute to our Beloved</h3>
+                <input type="submit" value="Condolence Message">
             </form>
+           
         </div>
+       
     </fieldset>
 
     <footer class="footer">
